@@ -3,7 +3,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "dixon318/orderms"
         KUBE_CONFIG = "/home/ubuntu/.kube/config"
-        AWS_REGION = "eu-central-1"
+        AWS_REGION = "us-east-1"
         EKS_CLUSTER_NAME = "order-cluster"
         
     }
